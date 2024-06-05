@@ -43,3 +43,12 @@ function operate (num1,num2,operator) {
         return result = divideNum(num1,num2);
     }
 }
+
+//function to update display
+let dipslayArray = [];
+const display = document.getElementById("display");
+function updateDisplay () {
+    //eventlistener for buttons
+
+    //append numbers
+}

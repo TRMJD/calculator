@@ -1,0 +1,20 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid green;
+  height: 100vh;
+  width: 100vw;
+  margin: 0; /* Ensure there is no margin that might affect centering */
+}
+
+
+.calcBox {
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+  box-sizing: border-box; /* Ensure padding doesn't affect the width */
+  max-width: 125px;
+}
+
